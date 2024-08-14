@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+img {
+  width: 100%;
+}
+
+h1,
+h2 {
+  font-family: "Young Serif";
+}
+
+body {
+  font-family: "Outfit";
+  background-color:antiquewhite;
+  margin: 2em;
+}
+
+article {
+  background-color: aliceblue;
+  padding: 1em;
+  border-radius: 1em;
+}
+
+.instructions,
+.ingredients {
+  border-bottom: 1px solid hsl(30, 54%, 90%);
+}
+
+.nutrition ul li {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid hsl(30, 54%, 90%);
+  padding: 0.5rem;
+}
+
+h2,
+p,
+li {
+  color: brown;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 2em;
+    border-radius: 1em;
+  }
+
+  img {
+    border-radius: 1em;
+  }
+}
